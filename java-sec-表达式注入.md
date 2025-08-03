@@ -12,7 +12,6 @@
 
 **GeoServer 属性名表达式前台代码执行漏洞（CVE-2024-36401）**
 - [GeoServer 属性名表达式前台代码执行漏洞（CVE-2024-36401）](https://github.com/vulhub/vulhub/blob/2111bfe468d2266575bdd0b699b9e2985abc1952/geoserver/CVE-2024-36401/README.zh-cn.md)  
-- [GeoServer Unauthenticated Remote Code Execution in Evaluating Property Name Expressions (CVE-2024-36401)](https://github.com/vulhub/vulhub/tree/master/geoserver/CVE-2024-36401)
 
 **Spring Cloud Gateway SpEL RCE 表达式注入漏洞（CVE-2022-22947）**
 - [CVE-2022-22947 SpringCloud GateWay SpEL RCE](http://www.bmth666.cn/2023/04/15/CVE-2022-22947-SpringCloud-GateWay-SpEL-RCE/index.html)  
