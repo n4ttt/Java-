@@ -6,3 +6,6 @@
 - [Aapache Tomcat AJP 文件包含漏洞 CVE-2020-1938](https://github.com/hktalent/MyDocs/blob/main/Apache-Tomcat-AJP-%E6%96%87%E4%BB%B6%E5%8C%85%E5%90%AB%E6%BC%8F%E6%B4%9E-CVE-2020-1938.md)  
 - [Apache-Tomcat-Ajp漏洞(CVE-2020-1938)漏洞复现（含有poc）](https://www.cnblogs.com/L0ading/p/12341112.html)  
 - [Tomcat AJP协议漏洞（CVE-2020-1938 / CNVD-2020-10487）分析](https://he1m4n6a.github.io/2020/08/01/Tomcat-AJP%E5%8D%8F%E8%AE%AE%E6%BC%8F%E6%B4%9E%EF%BC%88CVE-2020-1938-CNVD-2020-10487%EF%BC%89%E5%88%86%E6%9E%90/)  
+
+
+- [CVE-2020-1938 python3脚本](https://github.com/n4ttt/Java-Sec/blob/main/test/CNVD-2020-10487-Tomcat-Ajp-lfi.py)
