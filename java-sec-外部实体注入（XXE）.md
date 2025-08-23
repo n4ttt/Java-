@@ -52,7 +52,7 @@ sax.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
 sax.setFeature("http://xml.org/sax/features/external-general-entities", false);
 sax.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
 ```
-其他XML解析器的安全使用方式可以参考：*https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html*v
+其他XML解析器的安全使用方式可以参考：*https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html*
 
 ## 实战案例
 
