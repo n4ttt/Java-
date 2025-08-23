@@ -11,7 +11,7 @@ XML文档结构包括XML声明、DTD文档类型定义（可选）、文档元�
 
 ## 测试方法
 XML解析一般在导入配置、数据传输接口等场景可能会用到，涉及到XML文件处理的场景可留意下XML解析器是否禁用外部实体，从而判断是否存在XXE。  
-以org.dom4j.io.SAXReader为例，如果未设置**“sax.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);”**，则存在XXE风险。展示部分代码片段：
+以org.dom4j.io.SAXReader为例，如果未设置**sax.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);**，则存在XXE风险。展示部分代码片段：
 ```java
 String xmldata = request.getParameter("data");
 SAXReader sax = new SAXReader();
