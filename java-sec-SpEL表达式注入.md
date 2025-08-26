@@ -20,3 +20,5 @@
 **积木报表AviatorScript代码注入RCE**
 - [奇安信攻防社区-积木报表AviatorScript代码注入RCE分析](https://forum.butian.net/article/511)  
 
+**SpringBoot框架SpEL表达式注入**
+- [SpringBoot框架SpEL表达式注入漏洞复现与原理分析](https://www.cnblogs.com/lxfweb/p/16811366.html)
