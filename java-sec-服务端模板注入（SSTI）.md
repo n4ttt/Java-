@@ -187,12 +187,12 @@ JSP的风险主要来自`<% ... %>`脚本标签和EL表达式的滥用。
 
 ### 3. 实战案例：
 
-**CVE-2018-11784：Apache Struts2 S2-057 漏洞**  
+- **CVE-2018-11784：Apache Struts2 S2-057 漏洞**  
 Struts2 的某些标签（如url标签）在处理参数时，会将用户输入作为 OGNL 表达式解析，导致 SSTI。攻击者可注入 OGNL 代码执行命令，影响大量使用 Struts2 的企业系统。
 
-**CVE-2019-3396**  
-- [Confluence 未授权 RCE (CVE-2019-3396) 漏洞分析](https://paper.seebug.org/884/)
-- [Atlassian Confluence 路径穿越导致远程代码执行漏洞（CVE-2019-3396）](https://github.com/vulhub/vulhub/blob/master/confluence/CVE-2019-3396/README.zh-cn.md)
+- **CVE-2019-3396**  
+[Confluence 未授权 RCE (CVE-2019-3396) 漏洞分析](https://paper.seebug.org/884/)  
+[Atlassian Confluence 路径穿越导致远程代码执行漏洞（CVE-2019-3396）](https://github.com/vulhub/vulhub/blob/master/confluence/CVE-2019-3396/README.zh-cn.md)
 
 ### 3. 审计工具与辅助手段
 - **静态分析工具**：使用SonarQube、FindSecBugs等扫描代码，规则集中关注“用户输入与模板引擎API的交互”。  
