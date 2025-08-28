@@ -30,19 +30,26 @@ if (iter1.hasNext()) {
 ```
 其他部分XML解析接口如下，可在代码中全局搜索并分析：
 ```java
+java.net.bull.javamelody.PayloadNameRequestWrapper
+javax.xml.bind.Unmarshaller
 javax.xml.parsers.DocumentBuilder
+javax.xml.parsers.SAXParser
 javax.xml.stream.XMLStreamReader
+javax.xml.transform.sax.SAXSource
+javax.xml.transform.sax.SAXTransformerFactory
+javax.xml.transform.TransformerFactory
+javax.xml.validation.SchemaFactory
+javax.xml.validation.Validator
+javax.xml.xpath.XpathExpression
+org.apache.commons.digester3.Digester
+org.apache.ofbiz.base.util.UtilXml
+org.dom4j.io.SAXReader
 org.jdom.input.SAXBuilder
 org.jdom2.input.SAXBuilder
-javax.xml.parsers.SAXParser
-org.dom4j.io.SAXReader 
+org.xml.sax.helpers.XMLReaderFactory
 org.xml.sax.XMLReader
-javax.xml.transform.sax.SAXSource 
-javax.xml.transform.TransformerFactory 
-javax.xml.transform.sax.SAXTransformerFactory 
-javax.xml.validation.SchemaFactory
-javax.xml.bind.Unmarshaller
-javax.xml.xpath.XPathExpression
+![Uploading image.png…]()
+
 ...
 ```
 ## 修复建议
