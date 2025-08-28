@@ -48,8 +48,6 @@ org.jdom.input.SAXBuilder
 org.jdom2.input.SAXBuilder
 org.xml.sax.helpers.XMLReaderFactory
 org.xml.sax.XMLReader
-![Uploading image.png…]()
-
 ...
 ```
 ## 修复建议
